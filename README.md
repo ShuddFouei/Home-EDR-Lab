@@ -35,4 +35,4 @@ Utilizing Wazuh to monitor traffic on all home endpoints, providing a look into 
 ### Result / Lessons Learned
 - By Adding an agent to my daily driver desktop, I immediately discovered 38 High Severity vulnerabilities, with the CVE for each listed as well as the problem application. As such, this lab has already shown me how many vulnerabilities I had hidden and lying around
 - 
-## 10/2/2025 - Attack Simulation & Interface Familiarity
+## 10/6/2025 - Ticketing System Setup
