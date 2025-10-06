@@ -31,16 +31,19 @@ Utilizing Wazuh to monitor traffic on all home endpoints, providing a look into 
 - Connected to Wazuh Server IP via separate device, Desktop, to ensure connectivity over home network
 - Perforce Puppet master installed onto Laptop 1: Experimenting with automated agent rollout
 - MSI agent installer used for both Laptop 2 and Desktop. Data now all congregating within Laptop 1
+<img width="1920" height="1080" alt="Screenshot from 2025-10-06 16-44-19" src="https://github.com/user-attachments/assets/3af7622f-fa4d-4e45-8d1b-c1c495631b72" />
 
 ### Result / Lessons Learned
 - By Adding an agent to my daily driver desktop, I immediately discovered 38 High Severity vulnerabilities, with the CVE for each listed as well as the problem application. As such, this lab has already shown me how many vulnerabilities I had hidden and lying around
-- 
+<img width="1920" height="1080" alt="Screenshot from 2025-10-06 16-45-34" src="https://github.com/user-attachments/assets/04d28bce-2375-4281-9d5f-1d10c8eccf86" />
+
 ## 10/6/2025 - Ticketing System Setup
 - Researched Free Open Source ticketing software: decided on peppermint.sh
 - Installed via Docker Compose - Python and pip must be installed on system to properly set up docker compose
 - Copy the .yml file from https://docs.peppermint.sh/docker, as docker-compose.yml, then run docker-compuse up -d
 - By default, this service will host on port 3000
 - By connecting to localhost:3000, you can log in and configure the ticketing system
+<img width="1920" height="1080" alt="Screenshot from 2025-10-06 16-35-52" src="https://github.com/user-attachments/assets/e1c6a153-1c8b-4ffd-ab63-61833c1d5768" />
 
 ### Results / Lessons Learned
 - Docker has continued to impress me with its incredible speed to uptime for apps and nodes. For a local network, ticket setup was created in minutes, and accessible from my entire network
