@@ -36,3 +36,11 @@ Utilizing Wazuh to monitor traffic on all home endpoints, providing a look into 
 - By Adding an agent to my daily driver desktop, I immediately discovered 38 High Severity vulnerabilities, with the CVE for each listed as well as the problem application. As such, this lab has already shown me how many vulnerabilities I had hidden and lying around
 - 
 ## 10/6/2025 - Ticketing System Setup
+- Researched Free Open Source ticketing software: decided on peppermint.sh
+- Installed via Docker Compose - Python and pip must be installed on system to properly set up docker compose
+- Copy the .yml file from https://docs.peppermint.sh/docker, as docker-compose.yml, then run docker-compuse up -d
+- By default, this service will host on port 3000
+- By connecting to localhost:3000, you can log in and configure the ticketing system
+
+### Results / Lessons Learned
+- Docker has continued to impress me with its incredible speed to uptime for apps and nodes. For a local network, ticket setup was created in minutes, and accessible from my entire network
